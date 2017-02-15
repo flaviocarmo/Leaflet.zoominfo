@@ -1,2 +1,31 @@
 # Leaflet.zoominfo
-A zoomcontrol with map zoom level information
+
+## Description
+A leaflet zoomcontrol plugin with map zoom level information.
+
+## Requirements
+
+* Leaflet 1.x
+
+## Usage instructions
+
+### Quick Guide
+
+**HTML:**
+
+```html
+<!-- add L.Control.Zoominfo js and css after Leaflet -->
+<link rel="stylesheet" href="L.Control.Zoominfo.css" />
+<script src="L.Control.Zoominfo.js" ></script>
+```
+
+**JavaScript:**
+
+```javascript
+var map = L.map('map', {
+  zoomsliderControl: true,
+  zoomControl: false,
+  zoom: 12, 
+  center: [-15.597821, -56.094979]
+});
+```

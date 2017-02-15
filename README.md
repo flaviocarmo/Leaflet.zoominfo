@@ -5,6 +5,10 @@ A leaflet zoomcontrol plugin with map zoom level information.
 
 It is a forked/modified code from the nice [Leaflet.zoomslider](https://github.com/kartena/Leaflet.zoomslider) from Mattias Bengtsson (<mattias.jc.bengtsson@gmail.com>).
 
+## Demo
+
+[Leaflet.zoominfo simple example](https://flaviocarmo.github.io/Leaflet.zoominfo/examples/)
+
 ## Requirements
 
 * Leaflet 1.x

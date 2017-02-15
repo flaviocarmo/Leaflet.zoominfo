@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet.zoominfo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="L.Control.Zoominfo.css" />
+  <script src="L.Control.Zoominfo.js" ></script>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html, body, #map {
+      height: 100%;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    var map = L.map('map', {
+      zoominfoControl: true,
+      zoomControl: false,
+      zoom: 12, 
+      center: [-15.597821, -56.094979], 
+      attributionControl: false 
+    });
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      maxZoom: 15,
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    }).addTo(map);
+
+  </script>
+</body>
+</html>

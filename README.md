@@ -3,6 +3,8 @@
 ## Description
 A leaflet zoomcontrol plugin with map zoom level information.
 
+It is a forked/modified code from the nice Leaflet.zoomslider [https://github.com/kartena/Leaflet.zoomslider].
+
 ## Requirements
 
 * Leaflet 1.x
@@ -29,3 +31,7 @@ var map = L.map('map', {
   center: [-15.597821, -56.094979]
 });
 ```
+
+## License
+
+L.Control.Zoominfo is distributed under the [Apache 2.0 License](http://choosealicense.com/licenses/apache-2.0/).

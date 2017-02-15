@@ -33,5 +33,6 @@ var map = L.map('map', {
 ```
 
 ## License
+[![license](https://img.shields.io/github/license/flaviocarmo/leaflet.zoominfo.svg)](LICENSE)
 
 L.Control.Zoominfo is distributed under the [Apache 2.0 License](http://choosealicense.com/licenses/apache-2.0/).

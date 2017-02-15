@@ -25,7 +25,7 @@ It is a forked/modified code from the nice [Leaflet.zoomslider](https://github.c
 
 ```javascript
 var map = L.map('map', {
-  zoomsliderControl: true,
+  zoominfoControl: true,
   zoomControl: false,
   zoom: 12, 
   center: [-15.597821, -56.094979]

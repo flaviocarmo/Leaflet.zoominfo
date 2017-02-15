@@ -3,7 +3,7 @@
 ## Description
 A leaflet zoomcontrol plugin with map zoom level information.
 
-It is a forked/modified code from the nice Leaflet.zoomslider [https://github.com/kartena/Leaflet.zoomslider].
+It is a forked/modified code from the nice [Leaflet.zoomslider](https://github.com/kartena/Leaflet.zoomslider).
 
 ## Requirements
 
